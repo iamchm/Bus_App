@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="102dp"
+        android:text="버스 위치 찾기"
+        android:textAlignment="center"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:layout_width="251dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="400"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2016"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:text="위치 찾기"
+        android:textSize="20dp"
+        android:onClick="onClick"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
